@@ -16,7 +16,7 @@ void main()
 	}
 	else
 	{
-		printf("\n A number is Maximum");
+		printf("\n A number is Minimum");
 
 	}
 	getch();
