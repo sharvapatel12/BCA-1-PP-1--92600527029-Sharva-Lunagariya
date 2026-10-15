@@ -4,16 +4,30 @@
 
 void main()
 {
-	int i,N,a=0,b=1,next;
+	int i,j,N,a=0,b=1,next;
 	clrscr();
 	printf("\n Enter value of N term :");
 	scanf("%d",&N);
-	for(i=1; i<=N; i++)
+
+	printf("\n using for loop");
+	for(i=3; i<=N; i++)
 	{
 		printf("\n %d",a);
 		next = a+b;
 		a=b;
 		b=next;
+	}
+	printf("\n using while loop");
+	a=0;
+	b=1;
+	j=3;
+	while(j<=N)
+	{
+		printf("\n %d",a);
+		next = a+b;
+		a=b;
+		b=next;
+		j++;
 	}
 	getch();
 }

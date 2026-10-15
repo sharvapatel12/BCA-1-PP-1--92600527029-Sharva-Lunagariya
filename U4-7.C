@@ -4,15 +4,22 @@
 
 void main()
 {
-	int i,N;
+	int i,j,N;
 	clrscr();
 
 	printf("\n Enter value of N:");
 	scanf("%d",&N);
-
+	printf("\n using for loop");
 	for(i=1; i<=10; i++)
 	{
-		printf("\n %d*%d\n",N,i,N*i);
+		printf("\n%d*%d",N,i,N*i);
+	}
+	printf("\n using while loop");
+	j=1;
+	while(j<=10)
+	{
+		printf("\n%d*%d",N,j,N*j);
+		j++;
 	}
 	getch();
 }

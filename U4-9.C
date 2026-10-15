@@ -4,15 +4,23 @@
 
 void main()
 {
-	int i;
+	int i,j;
 	clrscr();
 
-	printf("Nmuber\ tSquare\ tCube\n");
-
+	printf("Nmuber \tSquare \tCube\n");
+	printf(" using for loop\n");
 	for(i=1;i<=10;i++)
 	{
-		printf("%d\t%d\t%d\n",i,i*i,i*i*i);
+		printf(" %d \t%d \t%d \n",i,i*i,i*i*i);
 
+	}
+
+	printf(" using while loop\n");
+	j=1;
+	while(j<=10)
+	{
+		printf(" %d \t%d \t%d \n",j,j*j,j*j*j);
+		j++;
 	}
 	getch();
 }

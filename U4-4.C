@@ -4,11 +4,22 @@
 
 void main()
 {
-	int i;
+	int i,j;
 	clrscr();
+
+	printf("\n using for loop");
 	for(i=100; i>=90; i--)
 	{
-		printf(" %d ",i);
+		printf("\t %d ",i);
 	}
+
+		printf("\n using while loop");
+
+		j=100;
+		while(j>=90)
+		{
+			printf("\t %d",j);
+			j--;
+		}
 	getch();
 }
